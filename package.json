@@ -4,18 +4,23 @@
   "description": "React eshop",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open",
+    "build": "webpack --mode production"
   },
   "keywords": [
     "react",
     "javascript"
   ],
-  "author": "\"Jonathan hern\u001b[F\u001b[2~\u001b[B\u001b[F\u001b[B\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001bHernandez <pgr.gni.20@gmail.com>",
+  "author": "\"Jonathan Hernandez <pgr.gni.20@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "@babel/core": "^7.21.4",
     "@babel/preset-env": "^7.21.4",
     "@babel/preset-react": "^7.18.6",
+    "babel-loader": "^9.1.2",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "webpack": "^5.79.0",
