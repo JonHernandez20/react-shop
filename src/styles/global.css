@@ -1,0 +1,6 @@
+@use '_vars.scss';
+
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
